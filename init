@@ -1,0 +1,11 @@
+public class init {
+
+	public static void main(String[] args) {
+		menu m = new menu();
+		m.setVisible(true);
+
+		game g = new game("Human","Human",5);
+		g.setVisible(true);
+	}
+
+}
